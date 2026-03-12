@@ -1,15 +1,15 @@
-# Hospital Patient Management System - Backend API
+# Library Management System - Backend API
 
 ## Description
-A web-based backend API to manage patient records for a hospital. Built with **Node.js**, **Express.js**, and **MongoDB (Mongoose)**.
+A web-based backend API to manage book records for a university library. Built with **Node.js**, **Express.js**, and **MongoDB (Mongoose)**.
 
 ## Features
-- Register new patients
-- View all patient records
-- View patient by ID
-- Update patient details
-- Delete patient records
-- Search patients by name
+- Add new books to the library
+- View all book records
+- View book by ID
+- Update book details
+- Delete book records
+- Search books by title or author
 
 ## Tech Stack
 - Node.js
@@ -21,8 +21,8 @@ A web-based backend API to manage patient records for a hospital. Built with **N
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/hostel-management.git
-   cd hostel-management
+   git clone https://github.com/<your-username>/library-management-system.git
+   cd library-management-system
    ```
 
 2. Install dependencies:
@@ -43,14 +43,14 @@ A web-based backend API to manage patient records for a hospital. Built with **N
 
 ## API Endpoints
 
-| Method | Endpoint               | Description              |
-|--------|------------------------|--------------------------|
-| POST   | /patients              | Register a new patient   |
-| GET    | /patients              | Get all patient records  |
-| GET    | /patients/:id          | Get patient by ID        |
-| PUT    | /patients/:id          | Update patient details   |
-| DELETE | /patients/:id          | Delete patient record    |
-| GET    | /patients/search?name= | Search patient by name   |
+| Method | Endpoint                | Description           |
+|--------|-------------------------|-----------------------|
+| POST   | /books                  | Add a new book        |
+| GET    | /books                  | Get all book records  |
+| GET    | /books/:id              | Get book by ID        |
+| PUT    | /books/:id              | Update book details   |
+| DELETE | /books/:id              | Delete book record    |
+| GET    | /books/search?title=xyz | Search book by title  |
 
 ## Deployment
 Deployed on **Render**: [Live URL]

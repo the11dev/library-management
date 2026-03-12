@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
-const patientRoutes = require("./routes/patientRoutes");
+const bookRoutes = require("./routes/bookRoutes");
 const errorHandler = require("./middleware/errorHandler");
 
 // Load environment variables
@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 
 // Routes
-app.use("/patients", patientRoutes);
+app.use("/books", bookRoutes);
 
 // Error handling middleware
 app.use(errorHandler);

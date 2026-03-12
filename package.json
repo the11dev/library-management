@@ -1,7 +1,7 @@
 {
-  "name": "hospital-patient-management",
+  "name": "library-management-system",
   "version": "1.0.0",
-  "description": "Backend API for Hospital Patient Management System",
+  "description": "Backend API for Library Management System",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
