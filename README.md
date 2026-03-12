@@ -53,4 +53,4 @@ A web-based backend API to manage patient records for a hospital. Built with **N
 | GET    | /patients/search?name= | Search patient by name   |
 
 ## Deployment
-Deployed on **Render**: [Live URL]
+Deployed on **Render**: [(https://hospital-management-ezws.onrender.com)]
