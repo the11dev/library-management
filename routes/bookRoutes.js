@@ -9,7 +9,6 @@ const {
   searchBooks,
 } = require("../controllers/bookController");
 
-// Search route must be BEFORE /:id route
 router.get("/search", searchBooks);
 
 router.post("/", createBook);
